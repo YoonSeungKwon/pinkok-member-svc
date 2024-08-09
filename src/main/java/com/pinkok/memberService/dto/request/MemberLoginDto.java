@@ -5,7 +5,7 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
-import yoon.docker.memberService.validation.ValidationGroup;
+import com.pinkok.memberService.validation.ValidationGroup;
 
 @Getter
 public class MemberLoginDto {
